@@ -25,7 +25,7 @@ const PricingList = () => {
                 href={item.price ? "/pricing" : "mailto:info@brainwave.com"}
                 white={!!item.price}
             >
-                {item.price ? "Get Started" : "Contact Us"}
+                {item.price ? "Comenzar" : "Contáctanos"}
             </Button>
 
             <ul>

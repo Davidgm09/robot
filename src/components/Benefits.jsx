@@ -11,7 +11,7 @@ const Benefits = () => {
         <div className="container relative z-2">
             <Heading 
                 className="md:max-w-md lg:max-w-2xl"
-                title="Chat Smarter, Not Harder with Brainwave"
+                title="Chatea más inteligentemente, no más duro con Brainwave"
             />
             <div className="flex flex-wrap gap-10 mb-10">
                 {benefits.map((item) => (
@@ -32,7 +32,7 @@ const Benefits = () => {
                                     height={48}
                                     alt={item.title}
                                 />
-                                <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">Explore more</p>
+                                <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">Explorar más</p>
                                 <Arrow />
                             </div>
                         </div>

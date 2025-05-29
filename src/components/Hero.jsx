@@ -24,7 +24,7 @@ const Hero = () => {
     <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]">
             <h1 className="h1 mb-6">
-                Explore the Possibilities of&nbsp;AI&nbsp; Chatting with {' '}
+                Explora las Posibilidades del Chat con&nbsp;IA&nbsp; con {' '}
                 <span className="inline-block relative">
                     Brainwave{" "} 
                     <img 
@@ -32,15 +32,15 @@ const Hero = () => {
                         className="absolute top-full left-0 w-full xl:-mt-2"
                         width={624}
                         height={28}
-                        alt="Curve"
+                        alt="Curva"
                         />
                 </span>
             </h1>
             <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-                Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.
+                Libera el poder de la IA con Brainwave. Mejora tu productividad con Brainwave, la aplicación de chat con IA de código abierto.
             </p>
             <Button href="/pricing" white>
-                Get started
+                Comenzar
             </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -48,7 +48,7 @@ const Hero = () => {
                 <div className="relative bg-n-8 rounded-[1rem]">
                     <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" /> 
                     <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                        <img src={robot} className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]" width={1024} height={490} alt="AI" />
+                        <img src={robot} className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]" width={1024} height={490} alt="IA" />
 
                         <ScrollParallax isAbsolutelyPositioned>
                             <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] 
@@ -68,7 +68,7 @@ const Hero = () => {
                         <ScrollParallax isAbsolutelyPositioned>
                             <Notification
                                 className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                                title="Code generation"
+                                title="Generación de código"
                             />
                         </ScrollParallax>
                     </div>   
@@ -81,7 +81,7 @@ const Hero = () => {
                     className="w-full"
                     width={1440}
                     height={1800}
-                    alt="hero"
+                    alt="fondo"
                 /> 
             </div>
             

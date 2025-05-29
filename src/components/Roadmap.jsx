@@ -9,11 +9,11 @@ import { Gradient } from "./design/Roadmap";
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+      <Heading tag="Listo para comenzar" title="En qué estamos trabajando" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
+          const status = item.status === "done" ? "Completado" : "En progreso";
 
           return (
             <div
@@ -29,7 +29,7 @@ const Roadmap = () => (
                     src={grid}
                     width={550}
                     height={550}
-                    alt="Grid"
+                    alt="Cuadrícula"
                   />
                 </div>
                 <div className="relative z-1">
@@ -69,7 +69,7 @@ const Roadmap = () => (
       </div>
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
+        <Button href="/roadmap">Nuestra hoja de ruta</Button>
       </div>
     </div>
   </Section>

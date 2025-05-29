@@ -11,8 +11,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading 
-            title="Generative AI made for creators." 
-            text="Brainwave unlocks the potential of AI-powered applications"    
+            title="IA Generativa hecha para creadores." 
+            text="Brainwave desbloquea el potencial de las aplicaciones impulsadas por IA"    
         />
         <div className='relative'>
             <div className='relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]'>
@@ -22,12 +22,12 @@ const Services = () => {
                         width={800} 
                         height={730}
                         src={service1} 
-                        alt="Smartest AI" 
+                        alt="IA más inteligente" 
                     />
                 </div>
                 <div className='relative z-1 max-w-[17rem] ml-auto'>
-                    <h4 className='h4 mb-4'>Smartest AI</h4>
-                    <p className='body-2 mb-[3rem] text-n-3'>Brainwave unlocks the potential of AI-powered applications</p>
+                    <h4 className='h4 mb-4'>IA más inteligente</h4>
+                    <p className='body-2 mb-[3rem] text-n-3'>Brainwave desbloquea el potencial de las aplicaciones impulsadas por IA</p>
                     <ul className='body-2'>
                         {brainwaveServices.map((item, index) => (
                             <li key={index} className='flex items-start py-4 border-t border-n-6'>
@@ -54,16 +54,16 @@ const Services = () => {
                         </div>
 
                         <div className='absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15'>
-                            <h4 className='h4 mb-4'>Photo editing</h4>
-                            <p className='body-2 mb-[3rem] text-n-3'>Automatically enhance your phtos using our AI app&apos;s photo editing feature. Try it now!</p>
+                            <h4 className='h4 mb-4'>Edición de fotos</h4>
+                            <p className='body-2 mb-[3rem] text-n-3'>Mejora automáticamente tus fotos usando la función de edición de fotos de nuestra aplicación de IA. ¡Pruébala ahora!</p>
                         </div>
                         <PhotoChatMessage />
                 </div>
                 
                 <div className='p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]'>
                     <div className='py-12 px-4 xl:px-8'>
-                        <h4 className='h4 mb-4'>Video generation</h4>
-                        <p className='body-2 mb-[2rem] text-n-3'>The world&apos;s most powerful AI photo and video art genertaion engine. What will you create?</p>
+                        <h4 className='h4 mb-4'>Generación de video</h4>
+                        <p className='body-2 mb-[2rem] text-n-3'>El motor de generación de arte fotográfico y de video con IA más potente del mundo. ¿Qué crearás?</p>
                         <ul className='flex items-center justify-between'>
                             {brainwaveServicesIcons.map((item, index) => (
                                 <li key={index} className={`rounded-2xl flex items-center justify-center ${index === 2 ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]" : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"}`}>
@@ -81,7 +81,7 @@ const Services = () => {
                             className='w-full h-full object-cover'
                             width={520}
                             height={400}
-                            alt='Scary Robot'
+                            alt='Robot'
                         />
                         <VideoChatMessage />
                         <VideoBar />
