@@ -10,7 +10,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
             <h2 className="h2 mb-4 md:mb-8">
-                Aplicación de Chat con IA para una colaboración perfecta
+                Chat con IA para una colaboración perfecta
             </h2>
             
             <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -30,7 +30,7 @@ const Collaboration = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-            <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+            <p className="body-2 mb-12 mt-12 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] text-center lg:mx-auto">
                 {collabText}
             </p>
 

@@ -133,8 +133,8 @@ import {
   export const collabContent = [
     {
       id: "0",
-      title: "Integración perfecta",
-      text: collabText,
+      title: "Integración con tus herramientas favoritas",
+      text: "Conecta fácilmente tu flujo de trabajo con las aplicaciones que ya usas y potencia la colaboración en tu equipo.",
     },
     {
       id: "1",
@@ -270,7 +270,7 @@ import {
     {
       id: "3",
       title: "Respuesta rápida",
-      text: "Permite a los usuarios encontrar rápidamente respuestas a sus preguntas sin tener que buscar en múltiples fuentes.",
+      text: "Obtén soluciones inmediatas a tus dudas gracias a la velocidad de nuestro chatbot de IA.",
       backgroundUrl: "./src/assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
